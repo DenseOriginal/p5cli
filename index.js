@@ -4,7 +4,7 @@ import chalk from 'chalk';
 import inquirer from 'inquirer';
 import { exec } from "child_process";
 import { rmdirSync, readFileSync } from 'fs';
-let packageConfig = JSON.parse(readFileSync('./package.json', 'utf-8'));
+// let packageConfig = JSON.parse(readFileSync('./package.json', 'utf-8'));
 
 async function bootstrap() {
   const answer = await inquirer.prompt({
