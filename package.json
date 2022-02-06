@@ -1,0 +1,17 @@
+{
+  "name": "p5cli",
+  "version": "1.0.0",
+  "description": "Unofficial CLI tool for creating p5js sketches",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "p5cli": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "inquirer": "^8.2.0"
+  }
+}
