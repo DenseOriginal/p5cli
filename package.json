@@ -1,6 +1,6 @@
 {
   "name": "@denseoriginal/p5cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unofficial CLI tool for creating p5js sketches",
   "main": "index.js",
   "type": "module",
